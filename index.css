@@ -1,0 +1,47 @@
+:root {
+    --css-primary: #34c94b;
+    --css-black: #121212;
+    --css-white: #FFF;
+  }
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--css-black);
+  }
+
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialised;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #_next {
+    isolation: isolate;
+  }
+
+  
